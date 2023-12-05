@@ -40,3 +40,13 @@ class Account:
 
     def get_account_number(self):
         return self._number
+
+    def toString(self):
+        return f'''
+        ===================================
+        Account name: {self._first_name}
+        Account number: {self._number}
+        Account Balance: {self._balance}
+        Account pin: Unavailable
+        ===================================
+        '''
