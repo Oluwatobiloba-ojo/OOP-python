@@ -2,10 +2,10 @@ from unittest import TestCase
 
 import pytest
 
-from Bank import bank
-from Bank.exceptions.InsufficientBalance import InsufficientBalance
-from Bank.exceptions.InvalidAccount import InvalidAccount
-from Bank.exceptions.WrongPinException import WrongPinException
+from src.Bank import bank
+from src.Bank.exceptions.InsufficientBalance import InsufficientBalance
+from src.Bank.exceptions.InvalidAccount import InvalidAccount
+from src.Bank.exceptions.WrongPinException import WrongPinException
 
 
 class TestSomething(TestCase):

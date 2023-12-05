@@ -1,4 +1,4 @@
-from diaries.diary_ import Diary
+from src.diaries.diary_ import Diary
 
 name = input("Enter your username")
 password = input("Enter your password")

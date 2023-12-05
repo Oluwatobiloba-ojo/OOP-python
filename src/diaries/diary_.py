@@ -1,6 +1,6 @@
-from Bank.exceptions.WrongPinException import WrongPinException
-from diaries.entry import Entry
-from diaries.exceptions.entry_exception import EntryNotFoundException, DiaryUnlocked
+from src.Bank.exceptions.WrongPinException import WrongPinException
+from src.diaries.entry import Entry
+from src.diaries.exceptions.entry_exception import EntryNotFoundException, DiaryUnlocked
 
 
 class Diary:

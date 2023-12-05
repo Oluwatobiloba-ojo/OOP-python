@@ -1,4 +1,4 @@
-from Bank.bank import Bank
+from src.Bank.bank import Bank
 
 union_bank = Bank()
 

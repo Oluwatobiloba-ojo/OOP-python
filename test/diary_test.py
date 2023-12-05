@@ -2,10 +2,10 @@ from unittest import TestCase
 
 import pytest
 
-from diaries.entry import Entry
-from Bank.exceptions.WrongPinException import WrongPinException
-from diaries.diary_ import Diary
-from diaries.exceptions.entry_exception import EntryNotFoundException, DiaryUnlocked
+from src.diaries.entry import Entry
+from src.Bank.exceptions.WrongPinException import WrongPinException
+from src.diaries.diary_ import Diary
+from src.diaries.exceptions.entry_exception import EntryNotFoundException, DiaryUnlocked
 
 
 class TestSomething(TestCase):

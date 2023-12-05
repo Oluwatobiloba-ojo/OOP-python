@@ -1,6 +1,6 @@
-from Bank.exceptions.InsufficientBalance import InsufficientBalance
-from Bank.exceptions.InvalidAmountException import InvalidAmountException
-from Bank.exceptions.WrongPinException import WrongPinException
+from src.Bank.exceptions.InsufficientBalance import InsufficientBalance
+from src.Bank.exceptions.InvalidAmountException import InvalidAmountException
+from src.Bank.exceptions.WrongPinException import WrongPinException
 
 
 def validate(amount: int):

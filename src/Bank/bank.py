@@ -1,5 +1,5 @@
-from Bank import account
-from Bank.exceptions.InvalidAccount import InvalidAccount
+from src.Bank import account
+from src.Bank.exceptions.InvalidAccount import InvalidAccount
 
 
 def concatenate(first_name, last_name):
