@@ -1,0 +1,2 @@
+class InvalidBoxException(ValueError):
+    pass
